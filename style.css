@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;500;600;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin : 0;
+}
+
+.navbar{
+    display:flex;
+    justify-content: center;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color:white;
+}
+
+.navbar a{
+    outline:none;
+    border:0;
+    border-style: none;
+    margin-left: 10rem;
+    font-weight: 300;
+    font-size:18px;
+    color:black;
+}
+
+
+.backgroundNavbar{
+    width:100%;
+}
+
+.aboutMe{
+    font-family: 'Kanit', sans-serif;
+    background-color:#F0F0F0;
+    padding:20px;
+    padding-left:50px;
+    width: 691px;
+    height:590px;
+    border-radius: 2rem;
+    margin:2rem;
+    margin-left:18rem;
+    margin-top:10rem;
+}
+
+.aboutMe p{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.aboutMe h1{
+    font-weight: 600;
+    color:#696060;
+    font-size:48px;
+}
+
+.imgAboutMe{
+    position:absolute;
+    top:64rem;
+    left:54rem;
+}
+
+.skillPage{
+    background-color:#F0F0F0;
+    padding:7rem 5rem 2rem 5rem;
+    margin: 0 3rem 3rem 3rem;
+    border-radius: 2rem;
+}
+
+.skillGrid{
+   display:grid;
+   grid-template-columns: repeat(3, minmax(0, 1fr));
+   justify-items: center;
+}
+
+.skillGridCol2{
+    display:grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 18rem;
+}
+
+.java1{
+    background-image:url('./java1.png');
+    height:204px;
+    width: 347px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.java2{
+    background-image:url('./java2.png');
+    height:204px;
+    width: 347px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.python1{
+    background-image:url('./python1.png');
+    height:204px;
+    width: 347px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.python2{
+    background-image:url('./python2.png');
+    height:204px;
+    width: 347px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.textSkill{
+    font-family: 'Kanit', sans-serif;
+    font-weight:300;
+    text-align:center;
+    background-color:white;
+    margin-top:12rem;
+    margin-left:5rem;
+    padding-top:2px;
+    padding-bottom:2px;
+    line-height: 0.5;
+    width:200px;
+}
+
+.headingSkill{
+    font-weight:600;
+    color:#696060;
+    font-size:64px;
+    text-align:center;
+}
+
+.textTopic{
+    text-align: center;
+    color:#696060;
+    font-weight: 600;
+    font-size:32px;
+    margin-top:-3px
+}
+
+.whyStudy{
+    margin-top:6rem;
+    text-align: center;
+    margin-bottom:6rem;
+}
+
+.headWhyStudy{
+    font-weight: 600;
+    font-size:48px;
+    color:#696060;
+}
+
+.bodyWhyStudy{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.contactPage{
+    background-color:#8B8B8B;
+    padding:1rem;
+    padding-left:4rem;
+    padding-right:4rem;
+    display:flex;
+}
+
+.headContact{
+    font-weight: 600;
+    font-size:29px;
+    color:white;
+}
+
+.box-contact{
+    display:flex;
+    margin-top:1rem;    
+}
+
+.box-contact img{
+    width:42px;
+    height:42px;
+}
+
+.box-contact span a{
+    color:white;
+    font-weight: normal;
+    font-size:16px;
+}
+.box-contact span{
+    margin-top:0.5rem;
+    margin-left:1rem;
+    color:white;
+    font-weight: normal;
+    font-size:16px;
+}
+
+.thankyouText{
+    text-align:center;
+    margin-left:45rem;
+    margin-top:8rem;
+}
+
+.headTextThankyou{
+    color:white;
+    font-size:40px;
+    font-weight:900;
+}
+
+.bodyTextThankyou {
+    font-weight:300;
+    color:white;
+    font-size:20px;
+    font-family: 'Kanit', sans-serif;
+}
